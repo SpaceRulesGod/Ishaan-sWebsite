@@ -1,0 +1,81 @@
+Body {
+    margin: 0;
+    padding-top: 700px;
+    text-align: center;
+    background-color: aquamarine;
+    align-content: center;
+
+}
+
+.Profile {
+    width: 175px;
+    margin-bottom: 50px;
+    border-radius: 25%;
+}
+
+.Parallax-inner {
+    display: table-cell;
+    position: relative;
+    text-align: center;
+    vertical-align: 0;
+}
+
+.Lineheading {
+    font-size: 50px;
+    font-weight: 300;
+    line-height: 1.5;
+    font-family: cursive;
+}
+
+#Bio {
+    padding: inherit;
+    text-align: center;
+    font-size: 40px;
+    color: darkgreen;
+}
+
+#Welcome {
+    font-size: 60px;
+    color: dodgerblue;
+    z-index: 9;
+    position: absolute;
+    height: 10px;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0.83;
+    background-color: aquamarine;
+    display: table;
+    width: 100%;
+    padding-top: 55px;
+}
+
+.menu {
+    position: absolute;
+    height: 10px;
+    background-color: aquamarine;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0.83;
+    background-color: aquamarine;
+    display: table;
+    width: 500px;
+    z-index: 10;
+    padding-left: -5000px;
+
+}
+
+.links {
+    float: right;
+    background-color: aquamarine;
+    padding-top: 5px;
+    padding-left: 9px;
+    padding-bottom: 9px;
+    font-family: cursive;
+    font-size: 20;
+
+
+}
